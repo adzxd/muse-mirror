@@ -1,0 +1,13 @@
+# Secrets — NEVER commit
+.api_key
+.streamlit/secrets.toml
+
+# Database (contains personal chat history)
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
